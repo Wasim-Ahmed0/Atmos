@@ -1,0 +1,76 @@
+.w-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.widget {
+    width: 115px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.31);
+    background-color: hsla(257, 6%, 25%, 0.15);
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+.widget .individual-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 0 2.5px;
+    margin-top: 5px;
+    position: relative; 
+}
+
+.individual-header #rainComp {
+    width: 20px; 
+    height: auto;
+    margin-left: 2px;
+}
+
+.individual-header #humidityComp {
+    width: 18px; 
+    height: auto;
+    margin-left: 8px;
+}
+
+.individual-header #windComp {
+    width: 19px; 
+    height: auto;
+    margin-left: 10px;
+}
+
+.individual-header .individual-title {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 0.7em;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.51);
+}
+
+.individual-header #precip {
+    margin-left: 2px;
+}
+
+.widget .individual-value {
+    font-size: 1.7em;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.widget .widget-caption {
+    height: 1.2em;
+    font-weight: 100;
+    font-size: 0.7em;
+    margin-bottom: 5px;
+}
+

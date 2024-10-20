@@ -1,0 +1,40 @@
+.visibility-container {
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 8px;
+	margin: 10px;
+	border-radius: 40px;
+	border: 2px solid rgba(255, 255, 255, 0.31);
+    background-color: hsla(257, 6%, 25%, 0.15);
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+.visibility-box {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    margin: -15px 0px;
+    gap: 10px;
+}
+
+.visibility-icon {
+    width: 26px; 
+    height: auto; 
+}
+  
+.visibility-title {
+    font-size: 1em;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.51);
+}
+  
+.value-container {
+    width: 40%;
+    padding-right: 10px;
+    margin: -15px 0px;
+    font-size: 1.8em;
+    text-align: right;
+}

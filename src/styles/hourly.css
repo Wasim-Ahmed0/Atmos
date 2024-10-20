@@ -1,0 +1,65 @@
+.widget-container {
+    width: 90%;
+    padding: 8px;
+    margin: 10px;
+    font-size: 0.9em;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.31);
+    background-color: hsla(257, 6%, 25%, 0.15);
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.3);
+  }
+
+
+.widget-header {
+	display: flex;
+    align-items: center;
+    margin: -15px 0px -10px 10px;
+    gap: 10px;
+}
+
+.forecast-title {
+	font-size: 1em;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.51)
+}
+  
+.clock {
+    width: 20px;
+    height: auto;
+}
+
+.hourly-slider {
+    --swiper-scrollbar-bg-color: none;
+    --swiper-scrollbar-drag-bg-color: rgba(254, 254, 254, 0.2);
+    padding-bottom: 15px !important;
+}
+  
+.hourly-slider .swiper-scrollbar-drag {
+	border: 1px solid rgba(255, 255, 255, 0.3);
+}
+  
+.hour-entry {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hour-entry .hour, .hour-entry .temperature {
+  font-weight: 400;
+  font-size: 0.9em;
+}
+
+.weatherpic {
+    margin: -5px 0px;
+    width: 50px;
+    height: auto;
+}
+
+
+
+
+
+

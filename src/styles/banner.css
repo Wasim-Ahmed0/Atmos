@@ -1,0 +1,23 @@
+.banner{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-bottom: solid 1px white;
+}
+
+.title {
+    font-size: 3em;
+    padding-left: 0.4em ;
+    font-weight: 800;
+}
+
+.toggle {
+    padding-right: 0.7em;
+}
+
+.react-switch {
+    border: 1px solid white;
+    border-radius: 20px;
+}
